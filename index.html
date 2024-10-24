@@ -1,0 +1,791 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="keywords"
+    content="jigar sable, portfolio, jigar, full stack dev, personal portfolio lifecodes, portfolio design, portfolio website, personal portfolio" />
+  <meta name="description" content="Welcome to Jigar's Portfolio. Full-Stack Web Developer and Android App Developer" />
+  <!-- 自定义 CSS 样式 -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <!-- Font Awesome 图标库 -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- Favicon 图标 -->
+  <link id='favicon' rel="shortcut icon" href="./assets/images/icon/apex-red-icon.svg" type="image/x-png">
+  <title>准备战斗 | [姓名]</title>
+</head>
+
+<body oncontextmenu="return false">
+
+  <!-- 首次进入网页的加载动画 -->
+  <!-- <div class="loader-container">
+<img draggable="false" src="./assets/images/preloader.gif" alt="">
+</div> -->
+
+  <!-- ↓导航栏↓ -->
+  <header>
+    <a href="/" class="logo"><i class="far fa-address-card"></i>&nbsp;&nbsp;Apex 英雄</a>
+    <div id="menu" class="fas fa-bars"></div>
+    <nav class="navbar">
+      <ul>
+        <li><a class="active" href="#home">游戏大厅</a></li>
+        <li><a href="#about">传奇 の 档案</a></li>
+        <li><a href="#skills">英雄池 | 技能树</a></li>
+        <li><a href="#education">天赋点 | Buff</a></li>
+        <li><a href="#work">荣耀 | 成就</a></li>
+        <li><a href="#experience">段位 | 等级</a></li>
+        <li><a href="#contact">加入战斗</a></li>
+      </ul>
+    </nav>
+  </header>
+  <!-- ↑导航栏↑ -->
+
+  <!-- ↓游戏大厅↓ -->
+  <section class="home" id="home">
+    <div id="particles-js"></div>
+    <div class="content">
+      <h2>嘿, 别来无恙!<br />Apex 英雄 <span> [姓名]</span></h2>
+      <p>今日挑战 <span class="typing-text"></span></p>
+      <a href="#about" class="btn"><span>传奇档案</span>
+        <i class="fas fa-arrow-circle-down"></i>
+      </a>
+      <div class="socials">
+        <ul class="social-icons">
+          <li><a class="WeChat" aria-label="WeChat" href="https://weixin.qq.com/" target="_blank"><svg t="1683375895546"
+                class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="2087"
+                width="24" height="24">
+                <path
+                  d="M690.1 377.4c5.9 0 11.8 0.2 17.6 0.5-24.4-128.7-158.3-227.1-319.9-227.1C209 150.8 64 271.4 64 420.2c0 81.1 43.6 154.2 111.9 203.6 5.5 3.9 9.1 10.3 9.1 17.6 0 2.4-0.5 4.6-1.1 6.9-5.5 20.3-14.2 52.8-14.6 54.3-0.7 2.6-1.7 5.2-1.7 7.9 0 5.9 4.8 10.8 10.8 10.8 2.3 0 4.2-0.9 6.2-2l70.9-40.9c5.3-3.1 11-5 17.2-5 3.2 0 6.4 0.5 9.5 1.4 33.1 9.5 68.8 14.8 105.7 14.8 6 0 11.9-0.1 17.8-0.4-7.1-21-10.9-43.1-10.9-66 0-135.8 132.2-245.8 295.3-245.8z m-194.3-86.5c23.8 0 43.2 19.3 43.2 43.1s-19.3 43.1-43.2 43.1c-23.8 0-43.2-19.3-43.2-43.1s19.4-43.1 43.2-43.1z m-215.9 86.2c-23.8 0-43.2-19.3-43.2-43.1s19.3-43.1 43.2-43.1 43.2 19.3 43.2 43.1-19.4 43.1-43.2 43.1z"
+                  p-id="2088" fill="#ffffff"></path>
+                <path
+                  d="M866.7 792.7c56.9-41.2 93.2-102 93.2-169.7 0-124-120.8-224.5-269.9-224.5-149 0-269.9 100.5-269.9 224.5S540.9 847.5 690 847.5c30.8 0 60.6-4.4 88.1-12.3 2.6-0.8 5.2-1.2 7.9-1.2 5.2 0 9.9 1.6 14.3 4.1l59.1 34c1.7 1 3.3 1.7 5.2 1.7 2.4 0 4.7-0.9 6.4-2.6 1.7-1.7 2.6-4 2.6-6.4 0-2.2-0.9-4.4-1.4-6.6-0.3-1.2-7.6-28.3-12.2-45.3-0.5-1.9-0.9-3.8-0.9-5.7 0.1-5.9 3.1-11.2 7.6-14.5zM600.2 587.2c-19.9 0-36-16.1-36-35.9 0-19.8 16.1-35.9 36-35.9s36 16.1 36 35.9c0 19.8-16.2 35.9-36 35.9z m179.9 0c-19.9 0-36-16.1-36-35.9 0-19.8 16.1-35.9 36-35.9s36 16.1 36 35.9c-0.1 19.8-16.2 35.9-36 35.9z"
+                  p-id="2089" fill="#ffffff"></path>
+              </svg></a></li>
+          <li><a class="QQ" aria-label="QQ" href="https://im.qq.com/index/" target="_blank"><svg t="1683377652370"
+                class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="2231"
+                width="24" height="24">
+                <path
+                  d="M824.8 613.2c-16-51.4-34.4-94.6-62.7-165.3C766.5 262.2 689.3 112 511.5 112 331.7 112 256.2 265.2 261 447.9c-28.4 70.8-46.7 113.7-62.7 165.3-34 109.5-23 154.8-14.6 155.8 18 2.2 70.1-82.4 70.1-82.4 0 49 25.2 112.9 79.8 159-26.4 8.1-85.7 29.9-71.6 53.8 11.4 19.3 196.2 12.3 249.5 6.3 53.3 6 238.1 13 249.5-6.3 14.1-23.8-45.3-45.7-71.6-53.8 54.6-46.2 79.8-110.1 79.8-159 0 0 52.1 84.6 70.1 82.4 8.5-1.1 19.5-46.4-14.5-155.8z"
+                  p-id="2232" fill="#ffffff"></path>
+              </svg></a></li>
+          <li><a class="BiliBili" aria-label="BiliBili" href="https://www.bilibili.com/" target="_blank"><svg
+                t="1683378149681" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg"
+                p-id="3371" width="24" height="24">
+                <path
+                  d="M777.514667 131.669333a53.333333 53.333333 0 0 1 0 75.434667L728.746667 255.829333h49.92A160 160 0 0 1 938.666667 415.872v320a160 160 0 0 1-160 160H245.333333A160 160 0 0 1 85.333333 735.872v-320a160 160 0 0 1 160-160h49.749334L246.4 207.146667a53.333333 53.333333 0 1 1 75.392-75.434667l113.152 113.152c3.370667 3.370667 6.186667 7.04 8.448 10.965333h137.088c2.261333-3.925333 5.12-7.68 8.490667-11.008l113.109333-113.152a53.333333 53.333333 0 0 1 75.434667 0z m1.152 231.253334H245.333333a53.333333 53.333333 0 0 0-53.205333 49.365333l-0.128 4.010667v320c0 28.117333 21.76 51.157333 49.365333 53.162666l3.968 0.170667h533.333334a53.333333 53.333333 0 0 0 53.205333-49.365333l0.128-3.968v-320c0-29.44-23.893333-53.333333-53.333333-53.333334z m-426.666667 106.666666c29.44 0 53.333333 23.893333 53.333333 53.333334v53.333333a53.333333 53.333333 0 1 1-106.666666 0v-53.333333c0-29.44 23.893333-53.333333 53.333333-53.333334z m320 0c29.44 0 53.333333 23.893333 53.333333 53.333334v53.333333a53.333333 53.333333 0 1 1-106.666666 0v-53.333333c0-29.44 23.893333-53.333333 53.333333-53.333334z"
+                  p-id="3372" fill="#ffffff"></path>
+              </svg></a></li>
+          <li><a class="NetEase" aria-label="NetEase" href="https://music.163.com/" target="_blank"><svg
+                t="1683378339299" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg"
+                p-id="5513" width="24" height="24">
+                <path
+                  d="M444.629333 485.333333c-12.544 43.861333 0.512 88.064 33.450667 113.194667 45.269333 34.56 109.44 12.8 122.624-42.453333 3.413333-14.378667 4.394667-30.805333 1.152-45.056-9.813333-42.709333-22.186667-84.821333-33.792-127.829334-56.746667 6.570667-108.501333 50.005333-123.434667 102.144z m236.714667-12.245333c11.648 43.178667 12.16 86.058667-5.418667 128-48.128 114.773333-201.429333 133.973333-280.448 35.242667-55.552-69.418667-54.613333-169.002667 2.56-244.650667 33.28-44.032 76.970667-72.832 130.048-87.637333l16.170667-4.437334c-3.584-17.706667-8.021333-34.816-10.368-52.224-7.509333-56.192 21.845333-106.794667 74.410667-129.706666 52.309333-22.826667 115.541333-9.216 150.613333 32.426666 17.322667 20.437333 16.853333 46.08-1.066667 62.464-17.578667 16.085333-42.496 14.762667-61.226666-3.84-10.538667-10.496-21.76-18.773333-37.418667-18.602666-22.4 0.256-42.112 17.834667-40.32 39.978666 1.578667 19.968 7.381333 39.68 12.8 59.136 0.938667 3.328 9.216 5.76 14.421333 6.528 56.917333 8.405333 106.837333 31.189333 148.138667 71.509334 109.141333 106.368 122.069333 278.656 28.672 402.773333-65.237333 86.698667-154.026667 135.168-261.418667 145.450667-197.162667 18.773333-369.664-107.946667-413.866666-301.141334-40.32-176.810667 58.88-365.568 227.626666-433.024 25.002667-9.984 48.768-1.322667 58.496 21.248 9.898667 22.912-0.810667 46.336-26.026666 57.6-101.034667 45.226667-162.858667 121.813333-179.84 231.424-22.741333 146.474667 70.656 289.109333 213.333333 329.386667 116.181333 32.853333 241.408-7.082667 311.808-99.413333 67.669333-88.746667 59.733333-217.557333-18.218667-293.248a169.770667 169.770667 0 0 0-77.781333-43.221334c8.448 30.549333 16.597333 59.221333 24.32 87.978667z"
+                  p-id="5514" fill="#ffffff"></path>
+              </svg></a></li>
+          <li><a class="Weibo" aria-label="Weibo" href="https://weibo.com/"><svg t="1683378386222" class="icon"
+                viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="24" width="24"
+                height="200">
+                <path
+                  d="M457.3 543c-68.1-17.7-145 16.2-174.6 76.2-30.1 61.2-1 129.1 67.8 151.3 71.2 23 155.2-12.2 184.4-78.3 28.7-64.6-7.2-131-77.6-149.2z m-52 156.2c-13.8 22.1-43.5 31.7-65.8 21.6-22-10-28.5-35.7-14.6-57.2 13.7-21.4 42.3-31 64.4-21.7 22.4 9.5 29.6 35 16 57.3z m45.5-58.5c-5 8.6-16.1 12.7-24.7 9.1-8.5-3.5-11.2-13.1-6.4-21.5 5-8.4 15.6-12.4 24.1-9.1 8.7 3.2 11.8 12.9 7 21.5zM785.3 443.5c15 4.8 31-3.4 35.9-18.3 11.8-36.6 4.4-78.4-23.2-109-27.6-30.6-68.4-42.3-106-34.3-15.4 3.3-25.2 18.4-21.9 33.8 3.3 15.3 18.4 25.2 33.8 21.8 18.4-3.9 38.3 1.8 51.9 16.7 13.5 15 17.2 35.4 11.3 53.3-4.9 15.1 3.2 31.1 18.2 36z"
+                  p-id="8088" fill="#ffffff"></path>
+                <path
+                  d="M885.1 237.5c-56.7-62.9-140.4-86.9-217.7-70.5-17.9 3.8-29.3 21.4-25.4 39.3 3.8 17.9 21.4 29.3 39.3 25.5 55-11.7 114.4 5.4 154.8 50.1 40.3 44.7 51.2 105.7 34 159.1-5.6 17.4 3.9 36 21.3 41.7 17.4 5.6 36-3.9 41.6-21.2v-0.1c24.1-75.4 8.9-161.1-47.9-223.9zM729 499c-12.2-3.6-20.5-6.1-14.1-22.1 13.8-34.7 15.2-64.7 0.3-86-28-40.1-104.8-37.9-192.8-1.1 0 0-27.6 12.1-20.6-9.8 13.5-43.5 11.5-79.9-9.6-101-47.7-47.8-174.6 1.8-283.5 110.6C127.3 471.1 80 557.5 80 632.2 80 775.1 263.2 862 442.5 862c235 0 391.3-136.5 391.3-245 0-65.5-55.2-102.6-104.8-118zM443 810.8c-143 14.1-266.5-50.5-275.8-144.5-9.3-93.9 99.2-181.5 242.2-195.6 143-14.2 266.5 50.5 275.8 144.4C694.4 709 586 796.6 443 810.8z"
+                  p-id="8089" fill="#ffffff"></path>
+              </svg></a></li>
+          <li><a class="GitHub" aria-label="GitHub" href="https://github.com/" target="_blank"><svg t="1683378789012"
+                class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="15763"
+                width="24" height="24">
+                <path
+                  d="M511.6 76.3C264.3 76.2 64 276.4 64 523.5 64 718.9 189.3 885 363.8 946c23.5 5.9 19.9-10.8 19.9-22.2v-77.5c-135.7 15.9-141.2-73.9-150.3-88.9C215 726 171.5 718 184.5 703c30.9-15.9 62.4 4 98.9 57.9 26.4 39.1 77.9 32.5 104 26 5.7-23.5 17.9-44.5 34.7-60.8-140.6-25.2-199.2-111-199.2-213 0-49.5 16.3-95 48.3-131.7-20.4-60.5 1.9-112.3 4.9-120 58.1-5.2 118.5 41.6 123.2 45.3 33-8.9 70.7-13.6 112.9-13.6 42.4 0 80.2 4.9 113.5 13.9 11.3-8.6 67.3-48.8 121.3-43.9 2.9 7.7 24.7 58.3 5.5 118 32.4 36.8 48.9 82.7 48.9 132.3 0 102.2-59 188.1-200 212.9 23.5 23.2 38.1 55.4 38.1 91v112.5c0.8 9 0 17.9 15 17.9 177.1-59.7 304.6-227 304.6-424.1 0-247.2-200.4-447.3-447.5-447.3z"
+                  p-id="15764" fill="#ffffff"></path>
+              </svg></a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="image">
+      <img draggable="false" class="tilt" src="./assets/images/Mirage.jpg" alt="">
+    </div>
+  </section>
+  <!-- ↑游戏大厅↑ -->
+
+  <!-- ↓传奇 の 档案↓ -->
+  <section class="about" id="about">
+    <h2 class="heading"><i class="fas fa-user-astronaut"></i> 传奇 の <span> 档案</span></h2>
+    <div class="row">
+      <video autoplay muted loop id="background-video">
+        <source src="./assets/videos/Mirage.mp4" type="video/mp4">
+      </video>
+      <div class="image">
+        <img draggable="false" class="tilt" src="./assets/images/apex-section-bg-legends-mirage-xl.jpg.adapt.1920w.jpg"
+          alt="">
+      </div>
+      <div class="content">
+        <h2>幻象</h2>
+        <p> Mirage</p><br /><br />
+        <div class="box-container">
+          <div class="box">
+            <p><span>真实姓名 : </span> 艾略特‧威特 Elliott Witt</p>
+            <p><span>中文名 : </span> 幻象</p>
+            <p><span>年龄 : </span> 32岁</p>
+            <p><span>故乡 : </span> 慰藉 Solace</p>
+            <p><span>等级 : </span> Skirmisher</p>
+            <p><span>战术技能 : </span> 疯猫 Psyche Out</p>
+            <p><span>被动技能 : </span> 无影无踪 Now You See Me . . .</p>
+            <p><span>终极技能 : </span> 派对焦点 Life of the Party</p>
+          </div>
+        </div><br /><br />
+        <h3>「我从来没有太认真。我一向随心所欲。我是需要改变一下。」</h3>
+        <p>“I don't take myself too seriously. I don't take myself anywhere. I
+          need to get out
+          more.”</p>
+        <div class="resumebtn">
+          <a href="./assets/images/apex-story-asset-mirage-letter-en.png" target="_blank" class="btn"><span>查看战绩</span>
+            <i class="fas fa-chevron-right"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ↑传奇 の 档案↑ -->
+
+  <!-- ↓英雄池 | 技能树↓ -->
+  <section class="skills" id="skills">
+    <h2 class="heading"><i class="fas fa-atom"></i> 英雄池 & <span> 技能树</span></h2>
+    <div class="container">
+      <div class="row" id="skillsContainer">
+        <div class="bar">
+          <div class="info">
+            <img src="./assets/images/skills/HTML5.png" />
+            <span>HTML5</span>
+          </div>
+        </div>
+        <div class=" bar">
+          <div class="info">
+            <img src="./assets/images/skills/CSS3.png" />
+            <span>CSS3</span>
+          </div>
+        </div>
+        <div class=" bar">
+          <div class="info">
+            <img src="./assets/images/skills/JavaScript.png" />
+            <span>JavaScript</span>
+          </div>
+        </div>
+        <div class=" bar">
+          <div class="info">
+            <img src="./assets/images/skills/Among Us.png" />
+            <span>Among Us</span>
+          </div>
+        </div>
+        <div class="bar">
+          <div class="info">
+            <img src="./assets/images/skills/Animal Crossing.png" />
+            <span>Animal Crossing</span>
+          </div>
+        </div>
+        <div class="bar">
+          <div class="info">
+            <img src="./assets/images/skills/Assassin's Creed.png" />
+            <span>Assassin's Creed</span>
+          </div>
+        </div>
+        <div class="bar">
+          <div class="info">
+            <img src="./assets/images/skills/Battle.net.png" />
+            <span>Battle.net</span>
+          </div>
+        </div>
+        <div class="bar">
+          <div class="info">
+            <img src="./assets/images/skills/Battlefield 1.png" />
+            <span>Battlefield 1</span>
+          </div>
+        </div>
+        <div class="bar">
+          <div class="info">
+            <img src="./assets/images/skills/Call Of Duty Black Ops 3.png" />
+            <span>Call Of Duty Black Ops 3</span>
+          </div>
+        </div>
+        <div class="bar">
+          <div class="info">
+            <img src="./assets/images/skills/Call Of Duty Black Ops 4.png" />
+            <span>Call Of Duty Black Ops 4</span>
+          </div>
+        </div>
+        <div class="bar">
+          <div class="info">
+            <img src="./assets/images/skills/Call of Duty Modern Warfare.png" />
+            <span>Call of Duty Modern Warfare</span>
+          </div>
+        </div>
+        <div class="bar">
+          <div class="info">
+            <img src="./assets/images/skills/Counter Strike.png" />
+            <span>Counter Strike</span>
+          </div>
+        </div>
+        <div class="bar">
+          <div class="info">
+            <img src="./assets/images/skills/Destiny 2.png" />
+            <span>Destiny 2</span>
+          </div>
+        </div>
+        <div class="bar">
+          <div class="info">
+            <img src="./assets/images/skills/Doom.png" />
+            <span>Doom</span>
+          </div>
+        </div>
+        <div class="bar">
+          <div class="info">
+            <img src="./assets/images/skills/Dota 2.png" />
+            <span>Dota 2</span>
+          </div>
+        </div>
+        <div class="bar">
+          <div class="info">
+            <img src="./assets/images/skills/Elden Ring.png" />
+            <span>Elden Ring</span>
+          </div>
+        </div>
+        <div class="bar">
+          <div class="info">
+            <img src="./assets/images/skills/Epic Games.png" />
+            <span>Epic Games</span>
+          </div>
+        </div>
+        <div class="bar">
+          <div class="info">
+            <img src="./assets/images/skills/Fall Guys.png" />
+            <span>Fall Guys</span>
+          </div>
+        </div>
+        <div class="bar">
+          <div class="info">
+            <img src="./assets/images/skills/Fallout Shelter.png" />
+            <span>Fallout Shelter</span>
+          </div>
+        </div>
+        <div class="bar">
+          <div class="info">
+            <img src="./assets/images/skills/Fortnite.png" />
+            <span>Fortnite</span>
+          </div>
+        </div>
+        <div class="bar">
+          <div class="info">
+            <img src="./assets/images/skills/GTA 5.png" />
+            <span>GTA 5</span>
+          </div>
+        </div>
+        <div class="bar">
+          <div class="info">
+            <img src="./assets/images/skills/Halo.png" />
+            <span>Halo</span>
+          </div>
+        </div>
+        <div class="bar">
+          <div class="info">
+            <img src="./assets/images/skills/Hearthstone.png" />
+            <span>Hearthstone</span>
+          </div>
+        </div>
+        <div class="bar">
+          <div class="info">
+            <img src="./assets/images/skills/League of Legends.png" />
+            <span>League of Legends</span>
+          </div>
+        </div>
+        <div class="bar">
+          <div class="info">
+            <img src="./assets/images/skills/Minecraft.png" />
+            <span>Minecraft</span>
+          </div>
+        </div>
+        <div class="bar">
+          <div class="info">
+            <img src="./assets/images/skills/Overwatch.png" />
+            <span>Overwatch</span>
+          </div>
+        </div>
+        <div class="bar">
+          <div class="info">
+            <img src="./assets/images/skills/Plague.png" />
+            <span>Plague</span>
+          </div>
+        </div>
+        <div class="bar">
+          <div class="info">
+            <img src="./assets/images/skills/Pokemon GO.png" />
+            <span>Pokemon GO</span>
+          </div>
+        </div>
+        <div class="bar">
+          <div class="info">
+            <img src="./assets/images/skills/PS4.png" />
+            <span>PS4</span>
+          </div>
+        </div>
+        <div class="bar">
+          <div class="info">
+            <img src="./assets/images/skills/Raft Game.png" />
+            <span>Raft Game</span>
+          </div>
+        </div>
+        <div class="bar">
+          <div class="info">
+            <img src="./assets/images/skills/Riot Games.png" />
+            <span>Riot Games</span>
+          </div>
+        </div>
+        <div class="bar">
+          <div class="info">
+            <img src="./assets/images/skills/Rockstar Games.png" />
+            <span>Rockstar Games</span>
+          </div>
+        </div>
+        <div class="bar">
+          <div class="info">
+            <img src="./assets/images/skills/Stardew Valley.png" />
+            <span>Stardew Valley</span>
+          </div>
+        </div>
+        <div class="bar">
+          <div class="info">
+            <img src="./assets/images/skills/Steam.png" />
+            <span>Steam</span>
+          </div>
+        </div>
+        <div class="bar">
+          <div class="info">
+            <img src="./assets/images/skills/Steve Jumping Dino.png" />
+            <span>Steve Jumping Dino</span>
+          </div>
+        </div>
+        <div class="bar">
+          <div class="info">
+            <img src="./assets/images/skills/Terraria.png" />
+            <span>Terraria</span>
+          </div>
+        </div>
+        <div class="bar">
+          <div class="info">
+            <img src="./assets/images/skills/The Legend of Zelda Skyward Sword.png" />
+            <span>The Legend of Zelda Skyward Sword</span>
+          </div>
+        </div>
+        <div class="bar">
+          <div class="info">
+            <img src="./assets/images/skills/Uplay.png" />
+            <span>Uplay</span>
+          </div>
+        </div>
+        <div class="bar">
+          <div class="info">
+            <img src="./assets/images/skills/Valorant.png" />
+            <span>Valorant</span>
+          </div>
+        </div>
+        <div class="bar">
+          <div class="info">
+            <img src="./assets/images/skills/Visual Game Boy.png" />
+            <span>Visual Game Boy</span>
+          </div>
+        </div>
+        <div class="bar">
+          <div class="info">
+            <img src="./assets/images/skills/Warframe.png" />
+            <span>Warframe</span>
+          </div>
+        </div>
+        <div class="bar">
+          <div class="info">
+            <img src="./assets/images/skills/World of Warcraft.png" />
+            <span>World of Warcraft</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ↑英雄池 | 技能树↑ -->
+
+  <!-- ↓天赋点 | Buff↓ -->
+  <section class="education" id="education">
+    <h1 class="heading"><i class="fas fa-star-of-david"></i> 天赋点 & <span> Buff</span></h1>
+    <p class="qoute">在「Apex 英雄：狂欢」中进入战场并透过全新团队死斗、重製英雄类型、死敌步枪与更多内容来成为传说！</p>
+    <div class="box-container">
+      <div class="box">
+        <div class="image">
+          <img draggable="false"
+            src="./assets/images/buff/apex-hero-md-s17-home-page-7x2-xl.jpg.adapt.crop7x2.1920w.jpg" alt="">
+        </div>
+        <div class="content">
+          <h3>在「APEX 英雄：军火库」中把握时机打出致命一击</h3>
+          <p>是时候展示你的火力了。新英雄「弹道」登场，前来教教英雄们更新版世界边缘中的规矩。进入全新进化的靶场并做好淮备：在竞赛最激烈时，你可能只有一次机会来定生死。</p>
+          <h4>Mar 2023 - May 2023 | 已达成「骷髅海」</h4>
+        </div>
+      </div>
+      <div class="box">
+        <div class="image">
+          <img draggable="false" src="./assets/images/buff/apex-hero-md-s16-mixtape-7x2-xl.jpg.adapt.crop7x2.1920w.jpg"
+            alt="">
+        </div>
+        <div class="content">
+          <h3>混和模式</h3>
+          <p>在混合模式中展现你的技巧，这个永久游戏列表将在团队死斗、控制与快速直击间轮替。</p>
+          <h4>Feb 2023 - Apr 2023 | 已达成「幻象之怒」</h4>
+        </div>
+      </div>
+      <div class="box">
+        <div class="image">
+          <img draggable="false"
+            src="./assets/images/buff/apex-hero-md-s16-team-death-match-7x2-xl.jpg.adapt.crop5x2.1455w.jpg" alt="">
+        </div>
+        <div class="content">
+          <h3>团队死斗</h3>
+          <p>在团队死斗中展开传奇派对！集合小队并进入 6 对 6 比赛中，靠解决对手来获得分数。</p>
+          <h4>Jan 2023.1 - Mar 2023 | 已达成「团队合作: 重生队友」</h4>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ↑天赋点 | Buff↑ -->
+
+  <!-- ↓荣耀 | 成就↓ -->
+  <section class="work" id="work">
+    <h2 class="heading"><i class="fas fa-trophy"></i> 荣耀 & <span> 成就</span></h2>
+    <div class="box-container">
+      <div class="box tilt">
+        <img draggable="false" src="./assets/images/work/apex-hero-md-ballistic-7x2-xl.jpg.adapt.crop5x2.1455w.jpg"
+          alt="" />
+        <div class="content">
+          <div class="tag">
+            <h3>全新英雄：弹道</h3>
+          </div>
+          <div class="desc">
+            <p>从隐世的英雄到神枪手英雄，弹道在此证明老当益壮的人光靠那一招半式还是吃得开。</p>
+            <div class="btns">
+              <a href="#" class="btn" target="_blank"><i class="fas fa-hand-sparkles"></i> 问候</a>
+              <a href="#" class="btn" target="_blank"><i class="fas fa-thumbs-up"></i> 赞赏</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="box tilt">
+        <img draggable="false" src="./assets/images/work/apex-hero-md-light-texture-7x2-xl.jpg.adapt.crop5x2.1455w.jpg"
+          alt="" />
+        <div class="content">
+          <div class="tag">
+            <h3>更新的世界边缘</h3>
+          </div>
+          <div class="desc">
+            <p>时间能抚平所有伤口，但些许的协助就能起到很大的作用。岩浆的高度上升并已冷却，而建设团队已经完成了重要的维修作业!
+            </p>
+            <div class="btns">
+              <a href="#" class="btn" target="_blank"><i class="fas fa-hand-sparkles"></i> 问候</a>
+              <a href="#" class="btn" target="_blank"><i class="fas fa-thumbs-up"></i> 赞赏</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="box tilt">
+        <img draggable="false" src="./assets/images/work/apex-hero-md-weapons-7x2-xl.jpg.adapt.crop5x2.1455w.jpg"
+          alt="" />
+        <div class="content">
+          <div class="tag">
+            <h3>武器精通</h3>
+          </div>
+          <div class="desc">
+            <p>想要证明你最喜欢的武器只有你用起来最顺手吗？完成挑战并获得奖励，成为众人既嫉妒又畏惧的英雄。</p>
+            <div class="btns">
+              <a href="#" class="btn" target="_blank"><i class="fas fa-hand-sparkles"></i> 问候</a>
+              <a href="#" class="btn" target="_blank"><i class="fas fa-thumbs-up"></i> 赞赏</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="box tilt">
+        <img draggable="false" src="./assets/images/work/apex-hero-md-firing-range-7x2-xl.jpg.adapt.crop5x2.1455w.jpg"
+          alt="" />
+        <div class="content">
+          <div class="tag">
+            <h3>进化的靶场</h3>
+          </div>
+          <div class="desc">
+            <p>在最新更新且大幅扩展的靶场中，练习是成就完美之道。开始先在核心进行基本训练，或是尝试决斗坑、训练场地与敏捷课程锻鍊近战技能、战斗与导航能力。</p>
+            <div class="btns">
+              <a href="#" class="btn" target="_blank"><i class="fas fa-hand-sparkles"></i> 问候</a>
+              <a href="#" class="btn" target="_blank"><i class="fas fa-thumbs-up"></i> 赞赏</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="box tilt">
+        <img draggable="false" src="./assets/images/work/apex-hero-md-ranked-7x2-xl.jpg.adapt.crop5x2.1455w.jpg"
+          alt="" />
+        <div class="content">
+          <div class="tag">
+            <h3>积分赛更新</h3>
+          </div>
+          <div class="desc">
+            <p>积分赛有了改变。你可以获得多高的名次？</p>
+            <div class="btns">
+              <a href="#" class="btn" target="_blank"><i class="fas fa-hand-sparkles"></i> 问候</a>
+              <a href="#" class="btn" target="_blank"><i class="fas fa-thumbs-up"></i> 赞赏</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="box tilt">
+        <img draggable="false" src="./assets/images/work/apex-s17-season-arsenal-battle-pass.png.adapt.1456w.png"
+          alt="" />
+        <div class="content">
+          <div class="tag">
+            <h3>军火库战斗通行证</h3>
+          </div>
+          <div class="desc">
+            <p>完成每日和每週挑战来获得传说级造型、反应式武器造型和其他更多奖励！</p>
+            <div class="btns">
+              <a href="#" class="btn" target="_blank"><i class="fas fa-hand-sparkles"></i> 问候</a>
+              <a href="#" class="btn" target="_blank"><i class="fas fa-thumbs-up"></i> 赞赏</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="viewall">
+      <a href="./projects/index.html" class="btn"><span>勋章墙</span>
+        <i class="fas fa-arrow-right"></i>
+      </a>
+    </div>
+
+  </section>
+  <!-- ↑荣耀 | 成就↑ -->
+
+  <!-- ↓段位 | 等级↓ -->
+  <section class="experience" id="experience">
+    <h2 class="heading"><i class="fas fa-globe-asia"></i> 段位 | 等级</h2>
+    <div class="timeline">
+      <div class="container right">
+        <div class="content">
+          <div class="tag">
+            <h2>安可</h2>
+          </div>
+          <div class="desc">
+            <h3>通常好机会就只有一次……但有时人生中会出现两次机会。而奥古斯都．布林克曼不打算错过这次。</h3>
+            <p>May 2023 - Present</p>
+          </div>
+        </div>
+      </div>
+      <div class="container left">
+        <div class="content">
+          <div class="tag">
+            <h2>最终希望</h2>
+          </div>
+          <div class="desc">
+            <h3>特瑞莎和她的朋友在如何拯救波里斯的破碎月球一事上无法达成共识，此事的结果会永久改变许多人生。</h3>
+            <p>Mar 2023 - Apr 2023</p>
+          </div>
+        </div>
+      </div>
+      <div class="container right">
+        <div class="content">
+          <div class="tag">
+            <h2>生存</h2>
+          </div>
+          <div class="desc">
+            <h3>玛拉的母亲只给了她一个规定：生存下去。G.D.S. 万塔捷的废墟中，这个规定很难遵守。 </h3>
+            <p>Jan 2023 - Feb 2023</p>
+          </div>
+        </div>
+      </div>
+      <div class="container left">
+        <div class="content">
+          <div class="tag">
+            <h2>英雄</h2>
+          </div>
+          <div class="desc">
+            <h3>纽卡索是哈里斯谷的英雄。但这位白马王子究竟是怎么样的一个人呢？</h3>
+            <p>Nov 2022 - Dec 2022</p>
+          </div>
+        </div>
+      </div>
+      <div class="container right">
+        <div class="content">
+          <div class="tag">
+            <h2>审判</h2>
+          </div>
+          <div class="desc">
+            <h3>该让疯狂玛吉为她的罪行接受法律的制裁了。但为于无辜与罪恶之间的她究竟会有什么样的命运？</h3>
+            <p>Sep 2022 - Oct 2022</p>
+          </div>
+        </div>
+      </div>
+      <div class="container left">
+        <div class="content">
+          <div class="tag">
+            <h2>绑架</h2>
+          </div>
+          <div class="desc">
+            <h3>班加罗尔不知该选择自己的哥哥还是她一直以来的目标，她得面对困难的抉择——与更困难的后果。</h3>
+            <p>Jul 2022 - Aug 2022</p>
+          </div>
+        </div>
+      </div>
+      <div class="container right">
+        <div class="content">
+          <div class="tag">
+            <h2>尘归尘</h2>
+          </div>
+          <div class="desc">
+            <h3>艾许的问题，尽在她的脑海中……但这正是最危险的存在但谁是艾许，谁又是艾许莉？</h3>
+            <p>May 2022 - Jun 2022</p>
+          </div>
+        </div>
+      </div>
+      <div class="container left">
+        <div class="content">
+          <div class="tag">
+            <h2>羽化</h2>
+          </div>
+          <div class="desc">
+            <h3>欧比诞生之时，恶兆笼罩：他的光芒能否从黑暗之中脱颖而出？</h3>
+            <p>Mar 2022 - April 2022</p>
+          </div>
+        </div>
+      </div>
+      <div class="container right">
+        <div class="content">
+          <div class="tag">
+            <h2>真相</h2>
+          </div>
+          <div class="desc">
+            <h3>探路者寻找自己创造者的任务终于有了真相……</h3>
+            <p>Jan 2022 - Feb 2022</p>
+          </div>
+        </div>
+      </div>
+      <div class="morebtn">
+        <a href="./experience/index.html" class="btn"><span>英雄不朽</span>
+          <i class="fas fa-arrow-right"></i>
+        </a>
+      </div>
+    </div>
+
+  </section>
+  <!-- ↑段位 | 等级↑ -->
+
+  <!-- ↓加入战斗↓ -->
+  <section class="contact" id="contact">
+    <h2 class="heading"><i class="fab fa-battle-net"></i> 加入 <span> 战斗</span></h2>
+    <div class="content">
+      <div class="container">
+        <div class="content">
+          <div class="image-box">
+            <img draggable="false" src="./assets/images/contact/apex-grid-tile-legends-mirage.png.adapt.crop16x9.png"
+              alt="">
+          </div>
+          <form id="contact-form">
+            <div class="form-group">
+              <div class="field">
+                <input type="text" name="name" placeholder="游戏ID" required>
+                <i class='fas fa-user'></i>
+              </div>
+              <div class="field">
+                <input type="text" name="email" placeholder="密钥" required>
+                <i class='fas fa-key'></i>
+              </div>
+              <div class="field">
+                <input type="text" name="phone" placeholder="电报">
+                <i class='fab fa-telegram-plane'></i>
+              </div>
+              <div class="message">
+                <textarea placeholder="痛击队友" name="message" required></textarea>
+                <i class="fas fa-fist-raised"></i>
+              </div>
+            </div>
+            <div class="button-area">
+              <button type="submit">
+                发射 <i class="fa fa-paper-plane"></i></button>
+            </div>
+          </form>
+        </div>
+      </div>
+  </section>
+  <!-- contact section ends -->
+
+  <!-- ↓Footer↓ -->
+  <section class="footer">
+    <div class="box-container">
+      <div class="box">
+        <h3>[姓名]所选英雄: MIRAGE</h3>
+        <p>Holographic Trickster<br /><br />
+          幻象是那种喜欢脱颖而出的人。他是四兄弟中最小的，他精通整人技艺来引起他人注意。他唯一认真看待的是幻影铁驭技术：他的工程师母亲向他介绍了这种创造幻觉的技术，他仔细研究机制，并尽其所能地学习所有相关知识。即使幻象的兄弟在边疆的内战中失踪，他和他的母亲仍继续开发幻影装置，这项工作让他们的关係更紧密。
+          <br /><br />
+          幻象在做酒吧侍者以维持生计时，从他的顾客那听闻关於 Apex
+          竞赛和胜利带来财富与荣耀的精采故事。虽然这两者听起来都很美好，但他知道他不能冒险让他的母亲失去所有子女——直到她给了他一套自订的幻影装置，并要他去追随梦想。幻象现在是
+          Apex 竞赛的生命，他在镜头前智取边疆的对手并让观眾為他著迷，让全世界和他的母亲见识到他的能耐。
+        </p>
+      </div>
+      <div class="box">
+        <h3>场景回溯</h3>
+        <a href="#home"><i class="fas fa-chevron-circle-right"></i> 游戏大厅</a>
+        <a href="#about"><i class="fas fa-chevron-circle-right"></i> 传奇 の 档案</a>
+        <a href="#skills"><i class="fas fa-chevron-circle-right"></i> 英雄池 | 技能树</a>
+        <a href="#education"><i class="fas fa-chevron-circle-right"></i> 天赋点 | Buff</a>
+        <a href="#work"><i class="fas fa-chevron-circle-right"></i> 荣耀 | 成就</a>
+        <a href="#experience"><i class="fas fa-chevron-circle-right"></i> 段位 | 等级</a>
+      </div>
+      <div class="box">
+        <h3>对战邀请</h3>
+        <p> <i class="fas fa-phone"></i>+XX XXX-XXXX-XXXX</p>
+        <p> <i class="fas fa-envelope"></i>XXXXXXXXXX@gmail.com</p>
+        <p> <i class="fas fa-map-marked-alt"></i>XXXX, XXXXXX-XXXXXXXX</p>
+        <div class="share">
+          <a href="https://www.linkedin.com/in/jigar-sable" class="fab fa-linkedin" aria-label="LinkedIn"
+            target="_blank"></a>
+          <a href="https://github.com/jigar-sable" class="fab fa-github" aria-label="GitHub" target="_blank"></a>
+          <a href="mailto:jigarsable21@gmail.com" class="fas fa-envelope" aria-label="Mail" target="_blank"></a>
+          <a href="https://twitter.com/jigar_sable" class="fab fa-twitter" aria-label="Twitter" target="_blank"></a>
+          <a href="https://t.me/lifecode5" class="fab fa-telegram-plane" aria-label="Telegram" target="_blank"></a>
+        </div>
+      </div>
+    </div>
+    <h1 class="credit">Designed With <i class="fa fa-heart pulse"></i> By <a
+        href="https://www.linkedin.com/in/jigar-sable">[姓名]</a></h1>
+  </section>
+  <!-- ↑Footer↑ -->
+
+  <!-- ↓回到顶部按钮↓ -->
+  <a href="#home" aria-label="ScrollTop" class="fas fa-angle-up" id="scroll-top"></a>
+  <!-- ↑回到顶部按钮↑ -->
+
+  <!-- ==== ↓JavaScript↓ ==== -->
+  <!-- jquery -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+    integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <!-- typed.js -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.5/typed.min.js"
+    integrity="sha512-1KbKusm/hAtkX5FScVR5G36wodIMnVd/aP04af06iyQTkD17szAMGNmxfNH+tEuFp3Og/P5G32L1qEC47CZbUQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <!-- particle.js -->
+  <script src="./assets/js/particles.min.js"></script>
+  <script src="./assets/js/app.js"></script>
+  <!-- vanilla tilt.js -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.7.0/vanilla-tilt.min.js"
+    integrity="sha512-SttpKhJqONuBVxbRcuH0wezjuX+BoFoli0yPsnrAADcHsQMW8rkR84ItFHGIkPvhnlRnE2FaifDOUw+EltbuHg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <!-- scroll reveal -->
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+  <script src="./assets/js/script.js"></script>
+  <!-- ==== ↑JavaScript↑ ==== -->
+</body>
+
+</html>
